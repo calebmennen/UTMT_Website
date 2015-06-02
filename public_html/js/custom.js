@@ -1,5 +1,5 @@
 (function($) {
- "use strict"
+ "use strict";
 	
 // OWL Carousel
 	$("#owl-testimonial").owlCarousel({
@@ -118,14 +118,14 @@
     $('.social-icons, .bs-example-tooltips').tooltip({
       selector: "[data-toggle=tooltip]",
       container: "body"
-    })
+    });
 	
 // Accordion Toggle Items
    var iconOpen = 'fa fa-minus',
         iconClose = 'fa fa-plus';
 
     $(document).on('show.bs.collapse hide.bs.collapse', '.accordion', function (e) {
-        var $target = $(e.target)
+        var $target = $(e.target);
           $target.siblings('.accordion-heading')
           .find('em').toggleClass(iconOpen + ' ' + iconClose);
           if(e.type == 'show')

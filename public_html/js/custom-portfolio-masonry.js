@@ -26,7 +26,7 @@
                     });
                 });
                 return columnWidth;
-            }
+            };
                         
             function refreshWaypoints() {
                 setTimeout(function() {
