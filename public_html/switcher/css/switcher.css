@@ -48,6 +48,7 @@
     padding: 3px;
 }
 .demo_changer img {
+    /*noinspection CssFloatPxLength*/
     margin: 2.4px !important;
     width: 29px !important;
     height: 29px;

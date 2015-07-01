@@ -11,7 +11,8 @@
 *
 * http://cameronspear.com/blog/bootstrap-dropdown-on-hover-plugin/
 */
-;(function ($, window, undefined) {
+;//noinspection ThisExpressionReferencesGlobalObjectJS
+(function ($, window, undefined) {
     // outside the scope of the jQuery plugin to
     // keep track of all dropdowns
     var $allDropdowns = $();

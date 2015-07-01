@@ -14,8 +14,8 @@
 	{
 		$('link[rel*=style][title]').each(function(i) 
 		{
-			this.disabled = true;
-			if (this.getAttribute('title') == styleName) this.disabled = false;
+
+			this.disabled = this.getAttribute('title') != styleName;
 		});
 		createCookie('style', styleName, 365);
 	}

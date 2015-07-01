@@ -1021,7 +1021,7 @@ pre code {
 }
 
 .col-xs-pull-0 {
-    right: 0%;
+    right: 0;
 }
 
 .col-xs-push-12 {
@@ -1073,7 +1073,7 @@ pre code {
 }
 
 .col-xs-push-0 {
-    left: 0%;
+    left: 0;
 }
 
 .col-xs-offset-12 {
@@ -1125,7 +1125,7 @@ pre code {
 }
 
 .col-xs-offset-0 {
-    margin-left: 0%;
+    margin-left: 0;
 }
 
 @media (min-width: 768px) {
@@ -1230,7 +1230,7 @@ pre code {
     }
 
     .col-sm-pull-0 {
-        right: 0%;
+        right: 0;
     }
 
     .col-sm-push-12 {
@@ -1282,7 +1282,7 @@ pre code {
     }
 
     .col-sm-push-0 {
-        left: 0%;
+        left: 0;
     }
 
     .col-sm-offset-12 {
@@ -1334,7 +1334,7 @@ pre code {
     }
 
     .col-sm-offset-0 {
-        margin-left: 0%;
+        margin-left: 0;
     }
 }
 
@@ -1440,7 +1440,7 @@ pre code {
     }
 
     .col-md-pull-0 {
-        right: 0%;
+        right: 0;
     }
 
     .col-md-push-12 {
@@ -1492,7 +1492,7 @@ pre code {
     }
 
     .col-md-push-0 {
-        left: 0%;
+        left: 0;
     }
 
     .col-md-offset-12 {
@@ -1548,7 +1548,7 @@ pre code {
     }
 
     .col-md-offset-0 {
-        margin-left: 0%;
+        margin-left: 0;
     }
 }
 
@@ -1654,7 +1654,7 @@ pre code {
     }
 
     .col-lg-pull-0 {
-        right: 0%;
+        right: 0;
     }
 
     .col-lg-push-12 {
@@ -1706,7 +1706,7 @@ pre code {
     }
 
     .col-lg-push-0 {
-        left: 0%;
+        left: 0;
     }
 
     .col-lg-offset-12 {
@@ -1762,7 +1762,7 @@ pre code {
     }
 
     .col-lg-offset-0 {
-        margin-left: 0%;
+        margin-left: 0;
     }
 }
 
@@ -5548,7 +5548,7 @@ a.thumbnail.active {
 
 .progress-bar {
     float: left;
-    width: 0%;
+    width: 0;
     height: 100%;
     font-size: 12px;
     line-height: 20px;
